@@ -15,8 +15,8 @@ php artisan migrate --seed
 npm install
 npm run build
 composer run dev 
-of php artisan serv
-of npm run dev
+or php artisan serv
+or npm run dev
 ```
 
 Below, you’ll find the original Laravel text.

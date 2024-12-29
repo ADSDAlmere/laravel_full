@@ -1,8 +1,16 @@
 # Make this one running
+This source code is provided "as-is," giving you the freedom to modify it however you like. If you encounter any mistakes, please leave a message to let us know.
+
+This version is built with Laravel Breeze, TailwindCSS, FontAwesome, and kyslik/column-sortable. While the application is relatively simple, it has the potential to serve as a solid foundation for creating impressive web applications.
+
+Commands to startup this repository.
+
 ```command
+git clone https://github.com/ADSDAlmere/laravel_full.git
+cd laravel_full
 composer install
 ren ".env copy" .env
-rem eventueel nog aanpassingen aan .env uitvoeren.
+rem If necessary, make adjustments to .env.
 php artisan migrate --seed
 npm install
 npm run build
@@ -10,6 +18,8 @@ composer run dev
 of php artisan serv
 of npm run dev
 ```
+
+Below, you’ll find the original Laravel text.
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
